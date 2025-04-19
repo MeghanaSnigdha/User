@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+  flex: 1;
+}
+
+.form button {
+  padding: 10px 15px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.user-card {
+  background: #eee;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-card button {
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
